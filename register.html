@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <form name="registerform">
+            <div class="input-group">
+                <label for="newUsername">New Username:</label>
+                <input type="text" id="newUsername" name="newUsername">
+            </div>
+            <div class="input-group">
+                <label for="newPassword">New Password:</label>
+                <div class="password-input">
+                    <input type="password" id="newPassword" name="newPassword">
+                    <span id="toggleNewPassword" onclick="toggleNewPasswordVisibility()">🙈</span>
+                </div>
+            </div>
+            <button type="button" onclick="register()">Register</button>
+        </form>
+        <div id="loginLink">
+            <p>Already have an account? <a href="index.html">Log in</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

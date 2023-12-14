@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin: 8px 0;
+}
+
+label {
+    margin-bottom: 6px;
+    color: #333;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.password-input {
+    position: relative;
+}
+
+#togglePassword, #toggleNewPassword {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#registerLink {
+    text-align: right;
+    margin-top: 10px;
+}
+
+#registerLink p {
+    margin: 0;
+}
+
+#registerLink a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#forgotPasswordLink {
+    text-align: right;
+    margin-top: 10px;
+}
+
+#forgotPasswordLink p {
+    margin: 0;
+}
+
+#forgotPasswordLink a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
